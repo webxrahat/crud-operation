@@ -6,6 +6,9 @@
     <title>Crud Operation</title>
 </head>
 <body>
-    <h1>This is test</h1>
+   <?php
+   
+   echo "<h1>This is test</h1>";
+   ?>
 </body>
 </html>
