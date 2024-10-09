@@ -25,6 +25,7 @@ git checkout -b branch	Create new branch (from the current HEAD) and switch to i
 git checkout branch	Switch to the existing branch and update the working directory
 git branch [-v]	Lists all local branches in the current repository (-v to list verbosely)
 git branch branch	Create new local branch (from the current HEAD), but do not switch to it
+git branch show -a
 git branch -d branch	Delete the local branch
 git branch -D branch	Delete the local branch (even if it hasn't been merged yet)
 git branch -m old new	Rename local branch old to new
