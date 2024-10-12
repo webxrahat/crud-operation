@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-.php linguist-language=PHP
+*.php linguist-language=PHP
 
 <head>
     <meta charset="UTF-8">
