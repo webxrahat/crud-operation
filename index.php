@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-*.php linguist-language=PHP
 
 <head>
     <meta charset="UTF-8">
@@ -13,29 +12,33 @@
 
 <body>
     <header>
+
+        <!-- This is Nav Menu -->
+
         <section class="w-[1280px] bg-red-200 mx-auto rounded ">
             <div class="flex p-8 justify-between items-center">
                 <div>
                     <h2 class="font-bold text-xl">All Users</h2>
                 </div>
                 <div>
-                    <button type="button" class="text-lg bg-red-500 px-8 py-2 rounded text-white">Add User</button>
+                    <!-- Modal toggle -->
+                    <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
+                        class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        type="button">
+                        Add User
+                    </button>
                 </div>
             </div>
         </section>
     </header>
     <main>
         <section>
+            <!-- Modal -->
 
             <div>
 
 
-                <!-- Modal toggle -->
-                <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
-                    class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                    type="button">
-                    Toggle modal
-                </button>
+
 
                 <!-- Main modal -->
                 <div id="authentication-modal" tabindex="-1" aria-hidden="true"
@@ -64,6 +67,22 @@
                             <div class="p-4 md:p-5">
                                 <form class="space-y-4" action="#">
                                     <div>
+                                        <label for="fristName"
+                                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                                            First Name</label>
+                                        <input type="text" name="firstName" id="firstName"
+                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                            placeholder="First name" required />
+                                    </div>
+                                    <div>
+                                        <label for="lastName"
+                                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+                                            Last Name</label>
+                                        <input type="text" name="lastName" id="lastName"
+                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                            placeholder="Last name" required />
+                                    </div>
+                                    <div>
                                         <label for="email"
                                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
                                             email</label>
@@ -72,35 +91,19 @@
                                             placeholder="name@company.com" required />
                                     </div>
                                     <div>
-                                        <label for="password"
+                                        <label for="phone"
                                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
-                                            password</label>
-                                        <input type="password" name="password" id="password" placeholder="••••••••"
+                                            phone number</label>
+                                        <input type="number" name="phoneNumber" id="phoneNumber"
+                                            placeholder="phone number"
                                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                                             required />
                                     </div>
-                                    <div class="flex justify-between">
-                                        <div class="flex items-start">
-                                            <div class="flex items-center h-5">
-                                                <input id="remember" type="checkbox" value=""
-                                                    class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"
-                                                    required />
-                                            </div>
-                                            <label for="remember"
-                                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember
-                                                me</label>
-                                        </div>
-                                        <a href="#"
-                                            class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost
-                                            Password?</a>
-                                    </div>
+
                                     <button type="submit"
-                                        class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login
-                                        to your account</button>
-                                    <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-                                        Not registered? <a href="#"
-                                            class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
-                                    </div>
+                                        class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add
+                                        User</button>
+
                                 </form>
                             </div>
                         </div>
@@ -109,7 +112,7 @@
 
             </div>
 
-
+            <!-- Table Start -->
             <div class="relative overflow-x-auto sm:rounded-lg">
                 <table class="w-[1280px] mx-auto text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
