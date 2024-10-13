@@ -76,6 +76,41 @@
     echo"<pre>";
     print_r ($newArray);
     echo"<pre>";
+
+
+    $a1= array("id"=> 1, "friend"=>"rahim","desination"=> "CEO","salary"=> 50000);
+    $a2= array("id"=> 1, "num"=> 1, "friend"=>"rahim","desination"=> "manager","salary"=> 20000);
+    
+    $newArray=array_values($a1);
+    $newArray1=array_unique($a2);
+    
+    echo"<pre>";
+    print_r ($newArray);
+    echo"<pre>";
+
+    echo"<pre>";
+    print_r ($newArray1);
+    echo"<pre>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ?>
 </body>
 
