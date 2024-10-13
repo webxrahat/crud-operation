@@ -16,10 +16,45 @@
      echo $color[1];
      print_r($color)."<br>";
 
+     echo "<ul>";
     for($i = 0; $i<4; $i++){
-        echo $color[$i]. "<br>";
+        echo "<li>$color[$i] </li>";
     }
     
+    echo "<ul>";
+
+
+    $friends = array("Rahim"=> 21, "Raja"=>22, "Hasin"=>24);
+    $friends = ["Rahim"=> 21, "Raja"=>22, "Hasin"=>24];
+
+    echo $friends["Rahim"]. "<br>";
+    print_r($friends);
+    echo $friends["Raja"]."<br>";
+
+    $age= [
+        "Masum"=> 21,
+        "Mahib"=>25,
+        "Hasin"=> 30,
+    ];
+
+
+    foreach($age as $value){
+        echo $value ."<br>";
+    }
+    $age= [
+        "Masum"=> 21,
+        "Mahib"=>25,
+        "Hasin"=> 30,
+    ];
+
+
+    foreach($age as $key=> $value){
+        echo "$key=> $value";
+    }
+
+
+
+
     ?>
 </body>
 
