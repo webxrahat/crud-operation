@@ -50,11 +50,32 @@
 
     foreach($age as $key=> $value){
         echo "$key=> $value";
-    }
+    };
 
 
+    $emp=[
+        [1, "rahim", "CEO", 50000],
+        [1, "ramiz", "manager", 25000],
+        [1, "rahi", "product_manager", 50000],
+        [1, "raim", "CEO", 50000],
+        [1, "lahim", "CEO", 50000]
+    ];
+    
+    echo"<pre>";
+    
+    print_r ($emp);
+
+    echo"<pre>";
 
 
+    $a1= array("id"=> 1, "friend"=>"rahim","desination"=> "CEO","salary"=> 50000);
+    $a2= array("id"=> 1, "friend"=>"rahim","desination"=> "manager","salary"=> 20000);
+    
+    $newArray=array_diff($a1,$a2);
+    
+    echo"<pre>";
+    print_r ($newArray);
+    echo"<pre>";
     ?>
 </body>
 
