@@ -94,6 +94,9 @@
 
 
 
+    echo "Toady date on this year" . " " . date("d/m/y");
+
+
 
 
 
