@@ -1,6 +1,6 @@
 // git init Create an empty repository (i.e., the ~/.git directory)
 
-\ git clone url [directory] Clone a repository into directory (optional) (. clones into current directory)\
+git clone url [directory] Clone a repository into directory (optional) (. clones into current directory)<br>
 
 > Make Changes # Review edits and prepare a commit
 > git status Show list of changed files in the current directory
