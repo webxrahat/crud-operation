@@ -2,14 +2,14 @@
 
 git clone url [directory] Clone a repository into directory (optional) (. clones into current directory)<br>
 
-> Make Changes # Review edits and prepare a commit
-> git status Show list of changed files in the current directory
-> git diff [-w] Show changes of unstaged tracked files (-w to ignore whitespace changes)
-> git diff --staged Show changes of staged tracked files
-> git add file Stage file to be committed
-> git add -u Stage all modified tracked files to be committed
-> git add . Stage all files and directories to be committed (note trailing dot)
-> Undo Changes # Undo uncommitted changes
+> Make Changes # Review edits and prepare a commit<br>
+> git status Show list of changed files in the current directory<br>
+> git diff [-w] Show changes of unstaged tracked files (-w to ignore whitespace changes)<br>
+> git diff --staged Show changes of staged tracked files<br>
+> git add file Stage file to be committed<br>
+> git add -u Stage all modified tracked files to be committed<br>
+> git add . Stage all files and directories to be committed (note trailing dot)<br>
+> Undo Changes # Undo uncommitted changes<br>
 > git checkout HEAD file Discard local unstaged changes to file
 > git checkout HEAD . Discard all local unstaged changes (note trailing dot)
 > git clean Remove untracked files from the working directory
