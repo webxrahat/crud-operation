@@ -10,6 +10,8 @@
 
 <body>
 
+    <?php include 'database.php';?>
+
 
     <!-- Hare is the form start -->
 
