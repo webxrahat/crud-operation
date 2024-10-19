@@ -1,4 +1,4 @@
-##Connection with database process
+## Connection with database process
 
 > $conn = ("serverName", "userName", "password", "databaseName")
 >  $sql = "SELECT * FORM table";
