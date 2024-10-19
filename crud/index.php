@@ -27,6 +27,17 @@
 
     </div>
 
+    <?php
+    $sql = "SELECT * FROM todolist";
+
+    $result = mysqli_query($conn, $sql) or die("Query Unsuccessful");
+    
+    if(mysqli_num_rows($result) > 0){
+
+    
+
+    ?>
+
 
     <!-- Hare is the table start -->
 
@@ -43,27 +54,27 @@
                     </tr>
                 </thead>
                 <tbody>
+
+                    <?php
+
+                while($row = mysqli_fetch_assoc($result)){
+
+                ?>
+
                     <tr>
-                        <th scope="row">1</th>
+                        <th scope="row"><?php echo $row['textbox'] ?></th>
                         <td>Mark</td>
                         <td>Otto</td>
                         <td>@mdo</td>
                     </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
+
+                    <?php } ?>
                 </tbody>
             </table>
         </div>
     </div>
+
+    <?php } ?>
 
 
 
