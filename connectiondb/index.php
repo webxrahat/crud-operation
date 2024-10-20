@@ -29,7 +29,7 @@
 
     <?php } ?>
 
-    <?php   } ?>
+    <?php  } ?>
 </body>
 
 </html>

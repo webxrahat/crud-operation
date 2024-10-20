@@ -16,7 +16,7 @@
     <!-- Hare is the form start -->
 
     <div class="d-flex justify-content-center">
-        <form class="col-2 p-4 bg-warning rounded-2 mt-2">
+        <form class="col-2 p-4 bg-warning rounded-2 mt-2" action="" method="">
             <div class="row mb-3">
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputEmail3">

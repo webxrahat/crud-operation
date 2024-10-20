@@ -1,0 +1,140 @@
+Here's the corrected 6-month course timeline, starting from Tuesday, October 15, 2024, with classes on Sundays and Tuesdays. Two exams are scheduled after 2 months and 5 months.
+
+---
+
+Course Start Date: October 15, 2024 (Tuesday)
+Duration: 6 months (24 weeks)
+Classes: Sundays & Tuesdays
+Time: 1.5 hours per class
+
+---
+
+ Week 1 - HTML Basics
+- Oct 15 (Tue): Introduction to HTML, Code editor setup
+- Oct 20 (Sun): HTML Elements, Attributes
+
+Week 2 - HTML Structure
+- Oct 22 (Tue): Headings, Paragraph, Styles
+- Oct 27 (Sun): Image, Tables
+
+Week 3 - HTML Forms and Lists
+- Oct 29 (Tue): Lists (Ordered, Unordered)
+- Nov 3 (Sun): Forms (Input, Button, Labels)
+
+---
+
+Week 4 - CSS Basics
+- Nov 5 (Tue): Introduction to CSS, Syntax, Selectors
+- Nov 10 (Sun): Colors, Backgrounds
+
+Week 5 - CSS Layout
+- Nov 12 (Tue): Margins, Padding, Height and Width
+- Nov 17 (Sun): Flexbox
+
+Week 6 - CSS Grid & Box Model
+- Nov 19 (Tue): Grid Layout
+- Nov 24 (Sun): Box Model
+
+Week 7 - Responsive Design
+- Nov 26 (Tue): Responsive Web Design (Media Queries)
+- Dec 1 (Sun): Practice Building Responsive Layouts
+
+---
+
+Week 8 - WordPress Setup
+- Dec 3 (Tue): Introduction to WordPress, Xampp installation
+- Dec 8 (Sun): WordPress Install and Setup
+
+Week 9 - WordPress Themes and Plugins
+- Dec 10 (Tue): Theme and Plugin setup, Preset
+- Dec 15 (Sun): Website Clone Practice
+
+---
+
+Week 10 - Exam 1
+- Dec 17 (Tue): First Exam (HTML & CSS)
+
+---
+
+Week 11 - WordPress Advanced Features
+- Dec 22 (Sun): Backup, WooCommerce setup
+- Dec 24 (Tue): Advanced Custom Fields (ACF)
+
+Week 12 - JavaScript (Frontend) Basics
+- Dec 29 (Sun): Introduction to JavaScript, Syntax, Variables
+- Dec 31 (Tue): Operators, Data Types
+
+---
+
+Week 13 - JavaScript Functions & Objects
+- Jan 5 (Sun): Functions, Objects
+- Jan 7 (Tue): Events, Loops
+
+Week 14 - JavaScript DOM Manipulation
+- Jan 12 (Sun): DOM (Document Object Model)
+- Jan 14 (Tue): DOM Events and Handlers
+
+---
+
+Week 15 - Bootstrap Framework
+- Jan 19 (Sun): Introduction to Bootstrap
+- Jan 21 (Tue): Building Layouts with Bootstrap
+
+Week 16 - Tailwind CSS
+- Jan 26 (Sun): Introduction to Tailwind CSS
+- Jan 28 (Tue): Tailwind CSS Utility-first Design
+
+---
+
+Week 17 - C-panel and Git-GitHub
+- Feb 2 (Sun): C-Panel basics for web hosting
+- Feb 4 (Tue): Git and GitHub Introduction, Version Control
+
+Week 18 - Project Work
+- Feb 9 (Sun): Start of Project Development (Frontend Focus)
+- Feb 11 (Tue): Continued Project Development
+
+---
+
+Week 19 - Exam 2
+- Feb 16 (Sun): Second Exam (JavaScript, Bootstrap, Tailwind)
+
+---
+
+Week 20 - PHP (Backend) Basics
+- Feb 18 (Tue): Introduction to PHP, Variables, Data Types
+- Feb 23 (Sun): PHP Strings, Numbers, Constants
+
+Week 21 - PHP Functions & Loops
+- Feb 25 (Tue): Functions, Arrays
+- Mar 2 (Sun): Loops, Global Variables
+
+---
+
+Week 22 - MySQL (Backend) Basics
+- Mar 4 (Tue): CRUD Operations in MySQL
+- Mar 9 (Sun): Database Connection and Queries with PHP
+
+Week 23 - MySQL & PHP Integration
+- Mar 11 (Tue): Connecting PHP with MySQL for Dynamic Websites
+- Mar 16 (Sun): User Authentication and Data Storage
+
+---
+
+Week 24 - WordPress Theme Development
+- Mar 18 (Tue): WordPress Theme Development Basics
+- Mar 23 (Sun): Template Hierarchy, Customizing Themes
+
+Week 25 - Final Project Work
+- Mar 25 (Tue): Full-stack Project Implementation (Frontend + Backend)
+- Mar 30 (Sun): Debugging and Enhancing Features
+
+---
+
+Week 26 - Final Project Submission
+- Apr 1 (Tue): Finalizing the Project
+- Apr 6 (Sun): Project Presentation, Course Review & Q&A
+
+---
+
+End of Course: April 6, 2025
